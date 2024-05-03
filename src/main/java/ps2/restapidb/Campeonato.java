@@ -3,7 +3,7 @@ package ps2.restapidb;
 import javax.persistence.*;
 
 @Entity
-@Table(name="faculdades")
+@Table(name="campeonatos")
 public class Campeonato {
 	@Id @GeneratedValue
 	private long id;
